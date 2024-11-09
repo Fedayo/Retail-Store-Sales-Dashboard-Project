@@ -72,22 +72,9 @@ order by total_purchase_amount desc
 ![customer](https://github.com/user-attachments/assets/577adfbb-d9fb-4c34-bb5b-4cd6a37458c5)
 
 
-## Percentage of total sales contributed by each region
-WITH OverallSales AS (
-    SELECT SUM(totalsales) AS overall_total_sales
-    FROM [dbo].[sales project] )
-SELECT 
-    region,
-    SUM(totalsales) AS region_sales,
-    SUM(totalsales) * 100.0 / os.overall_total_sales AS sales_percentage
-FROM 
-    [dbo].[sales project]
-CROSS JOIN OverallSales os
-GROUP BY 
-    region, os.overall_total_sales
-ORDER BY 
-    sales_percentage DESC
-![percentage](https://github.com/user-attachments/assets/03a94446-cb84-4cf3-ad8e-979d0f5a6fd6)
+![percentage](https://github.com/user-attachments/assets/f3acd0bf-a11e-436d-9fb9-1860dca57ad5)
+
+
 
 ## Products with no sales in the last quarter
 SELECT DISTINCT product
@@ -100,6 +87,7 @@ WHERE product NOT IN (
 ![product](https://github.com/user-attachments/assets/d3eb8515-b44d-4ef7-b590-e5c4c8ffc091)
 
 
+![product](https://github.com/user-attachments/assets/9073bc8f-61c6-40b2-b676-1462501130ad)
 
 
 
