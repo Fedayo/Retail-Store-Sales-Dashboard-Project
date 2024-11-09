@@ -2,6 +2,7 @@
 This project focuses on analyzing retail sales data using Excel, SQL, and Power BI. The dashboard provides insights such as an overall sales overview, identification of top-performing products, and regional sales breakdown.
 
 The project demonstrates the use of data analysis tools for extracting, transforming, and visualizing sales data, providing actionable insights for business decision-making.
+
 ## Dataset
 The dataset contains the following columns:
 
@@ -74,9 +75,25 @@ The Power BI file is available here: https://github.com/Fedayo/Retail-Store-Sale
 ## Insights and Findings
 - **Sales Performance:** The monthly sales trend shows that he highest sales was made in 2024.
 - **Top Products:** The top 3 selling products are shoes, shirt and hat which contributed to a large percentage of total sales, indicating a strong preference for certain items.
-- **Regional Sales:** The South region had the highest sales, accounting for 44.16% of total revenue, while the West region had the lowest performance.
+- **Regional Sales:** The South region had the highest sales, accounting for 44.16% of total revenue, while the West region had the lowest performance with a 14.29% of the total revenue.
 
+## Recommendations
+Based on the analysis, here are some recommendations for the store:
 
+1. **Focus on High-Demand Products**:
+   - Invest in marketing and promotional strategies for the top 3 best-selling products which are shoes, shirt and hat,  as they contribute significantly to overall sales.
+   - Consider offering bundled deals or discounts on these products to increase sales volume further.
+
+2. **Improve Sales in Low-Performing Regions**:
+   - Analyze the reasons behind low sales in the North and Western region and explore targeted marketing campaigns or regional promotions to boost performance.
+   - Consider collaborating with local distributors or retailers in the underperforming regions to increase reach.
+
+3. **Seasonal Sales Strategy**:
+   - The significant sales spike during the holiday season i.e 2023 December to 2024 February indicates an opportunity to prepare special promotions or limited-time offers in the months leading up to November and December.
+   - Stock up on inventory for high-demand products in advance to meet increased demand during peak seasons.
+
+## Conclusion
+This project utilized Excel, SQL, and Power BI to effectively analyze and visualize retail sales data. By creating dynamic and interactive dashboards, I was able to extract key insights on sales performance, top products, and regional breakdowns, which can support strategic decision-making.
 
 
 
