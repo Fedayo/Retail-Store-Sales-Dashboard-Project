@@ -66,11 +66,19 @@ The Power BI dashboard includes interactive visuals:
 - A **donut chart** for analyzing sales performance by region.
 - A **line chart** for tracking monthly sales trends.
 
-The Power BI file is available here: [retail_sales_dashboard.pbix](./![Sales dashboard image](https://github.com/user-attachments/assets/b52c2093-ab92-4720-96cf-0f794dc0745a)
-)
+The Power BI file is available here: https://github.com/Fedayo/Retail-Store-Sales-Dashboard-Project/blob/main/Sales%20Dashboard.pbix
 
 **Dashboard Preview:**
-![Power BI Dashboard Screenshot](./images/powerbi_dashboard_screenshot.png)
+![Sales dashboard image](https://github.com/user-attachments/assets/a764efc5-4ef2-40ed-a678-13f9391735f9)
+
+## Insights and Findings
+- **Sales Performance:** The monthly sales trend shows that he highest sales was made in 2024.
+- **Top Products:** The top 3 selling products are shoes, shirt and hat which contributed to a large percentage of total sales, indicating a strong preference for certain items.
+- **Regional Sales:** The South region had the highest sales, accounting for 44.16% of total revenue, while the West region had the lowest performance.
+
+
+
+
 
 
 
