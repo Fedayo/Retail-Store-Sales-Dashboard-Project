@@ -27,66 +27,34 @@ Data cleaning was performed using Excel to ensure accuracy and consistency:
 - Calculated `total sales` as `quantity * `unit price`
 
 ## Total sales for each product category
-select sum(totalsales) as total_sales, product from [dbo].[sales project]
-group by product
-![total sales](https://github.com/user-attachments/assets/50525e7a-83c6-4fb2-9a1d-fabee4757235)
+![total](https://github.com/user-attachments/assets/539279d5-f1f6-4741-987a-4671f7fd6c44)
+
 
 ## Number of sales transactions in each region
-select region,
-count (orderid) as number_of_sales_transactions
-from[dbo].[sales project]
-group by region
-![number of transacions](https://github.com/user-attachments/assets/2b63f9ef-f2d2-41ad-9078-1b65df4af9f0)
+![sales](https://github.com/user-attachments/assets/2033790b-dc45-44c5-9661-878cf6999582)
+
 
 ## Highest selling product by total sales value
-select product,
-sum (totalsales) as total_sales_value
-from[dbo].[sales project]
-group by product
-order by total_sales_value desc
-![highest selling](https://github.com/user-attachments/assets/a7077d07-1721-418a-a9c5-0b164acf09b0)
+![highest](https://github.com/user-attachments/assets/515e2dd0-fd75-44e2-8d64-4228fd75842b)
+
 
 ## Total revenue per product
-select product,
-sum (totalsales) as TotalRevenue
-from [dbo].[sales project]
-group by product
-![total rvenue](https://github.com/user-attachments/assets/145bbd25-cb5c-485e-9128-67bba6f2d804)
+![revenue](https://github.com/user-attachments/assets/0c980309-7a22-4834-b24b-36410e163fb0)
+
 
 ## Monthly sales totals for the current year
-select ordermonth,
-sum(totalsales) as monthly_sales_total
-from [dbo].[sales project]
-where
-YEAR(orderdate) = year (GETDATE())
-group by OrderMonth
-order by OrderMonth
-![monthly](https://github.com/user-attachments/assets/c1b3d8a5-5dff-4c40-8b50-5225a6b11cd8)
+![monthly](https://github.com/user-attachments/assets/079904e6-75cf-443b-a90c-52fdfe707950)
+
 
 ## Top 5 customers by total purchase amount
-select top 5 customer_id,
-sum (totalsales) as total_purchase_amount
-from [dbo].[sales project]
-group by Customer_Id
-order by total_purchase_amount desc
-![customer](https://github.com/user-attachments/assets/577adfbb-d9fb-4c34-bb5b-4cd6a37458c5)
+![customer](https://github.com/user-attachments/assets/4dcd4081-c833-4db0-b7d7-8147a138a750)
 
 
+## Percentage of total sales contributed by each region
 ![percentage](https://github.com/user-attachments/assets/f3acd0bf-a11e-436d-9fb9-1860dca57ad5)
 
 
-
 ## Products with no sales in the last quarter
-SELECT DISTINCT product
-FROM [dbo].[sales project]
-WHERE product NOT IN (
-    SELECT product
-    FROM [dbo].[sales project]
-    WHERE ordermonth IN ('2024-06', '2024-07', '2024-08')
-)
-![product](https://github.com/user-attachments/assets/d3eb8515-b44d-4ef7-b590-e5c4c8ffc091)
-
-
 ![product](https://github.com/user-attachments/assets/9073bc8f-61c6-40b2-b676-1462501130ad)
 
 
