@@ -1,11 +1,10 @@
-# Retail Sales Analysis Dashboard
+# Retail Store Sales Analysis Dashboard
 This project focuses on analyzing retail sales data using Excel, SQL, and Power BI. The dashboard provides insights such as an overall sales overview, identification of top-performing products, and regional sales breakdown.
 
 The project demonstrates the use of data analysis tools for extracting, transforming, and visualizing sales data, providing actionable insights for business decision-making.
 
 ## Dataset
 The dataset contains the following columns:
-
 - `orderID`: Unique identifier for each order.
 - `customerID`: Unique identifier for each customer.
 - `orderDate`: The date the order was placed.
@@ -15,6 +14,12 @@ The dataset contains the following columns:
 - `quantity`: The number of units sold.
 - `unit price`: The price per unit of the product.
 - `total sales`: The total sales amount, calculated as `quantity * unit price`.
+
+## Tools and Technologies Used
+- **Excel**: Data exploration, cleaning, and initial analysis.
+- **SQL**: Data extraction, cleaning, and analysis using complex queries.
+- **Power BI**: Data visualization and dashboard creation for interactive insights.
+- **GitHub**: Version control and project documentation.
 
 ## Objectives
 1. Provide an overview of total sales and monthly trends.
@@ -73,9 +78,14 @@ The Power BI file is available here: https://github.com/Fedayo/Retail-Store-Sale
 ![Sales dashboard image](https://github.com/user-attachments/assets/a764efc5-4ef2-40ed-a678-13f9391735f9)
 
 ## Insights and Findings
-- **Sales Performance:** The monthly sales trend shows that he highest sales was made in 2024.
+- **Sales Performance:** The monthly sales trend shows that the highest sales was made in 2024.
 - **Top Products:** The top 3 selling products are shoes, shirt and hat which contributed to a large percentage of total sales, indicating a strong preference for certain items.
 - **Regional Sales:** The South region had the highest sales, accounting for 44.16% of total revenue, while the West region had the lowest performance with a 14.29% of the total revenue.
+
+## Challenges Faced
+- **Data Quality Issues**: The dataset contained duplicate values. This was resolved using Excel data cleaning techniques by removing duplicates.
+- **Data Transformation**: Calculations like `total sales` were performed using derived columns.
+- **Visual Design**: Ensuring the Power BI dashboard was user-friendly and visually appealing involved experimenting with different chart types and layout designs.
 
 ## Recommendations
 Based on the analysis, here are some recommendations for the store:
@@ -95,6 +105,9 @@ Based on the analysis, here are some recommendations for the store:
 ## Conclusion
 This project utilized Excel, SQL, and Power BI to effectively analyze and visualize retail sales data. By creating dynamic and interactive dashboards, I was able to extract key insights on sales performance, top products, and regional breakdowns, which can support strategic decision-making.
 
+## References and Acknowledgments
+- Dataset Source: Ladies in Tech Africa Bootcamp
+- Tutorials: Followed Power BI tutorials from [DESIGN TRICKS that Make EVERY Power BI Report Look GREAT!] (https://youtu.be/v6fP8gyCLLc?si=UZX40iHo7D2NTsbQ)
 
 
 
