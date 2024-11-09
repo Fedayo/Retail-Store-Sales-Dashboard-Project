@@ -26,6 +26,7 @@ Data cleaning was performed using Excel to ensure accuracy and consistency:
 - Converted `orderDate` to `order month` date format.
 - Calculated `total sales` as `quantity * `unit price`
 
+## SQL queries
 ## Total sales for each product category
 ![total](https://github.com/user-attachments/assets/539279d5-f1f6-4741-987a-4671f7fd6c44)
 
@@ -58,7 +59,18 @@ Data cleaning was performed using Excel to ensure accuracy and consistency:
 ![product](https://github.com/user-attachments/assets/9073bc8f-61c6-40b2-b676-1462501130ad)
 
 
+## Power BI Dashboard
+The Power BI dashboard includes interactive visuals:
+- **KPI cards** for Total Sales, Total Quantity, and Average Unit Price.
+- A **stacked bar chart** showing top products based on total sales.
+- A **donut chart** for analyzing sales performance by region.
+- A **line chart** for tracking monthly sales trends.
 
+The Power BI file is available here: [retail_sales_dashboard.pbix](./![Sales dashboard image](https://github.com/user-attachments/assets/b52c2093-ab92-4720-96cf-0f794dc0745a)
+)
+
+**Dashboard Preview:**
+![Power BI Dashboard Screenshot](./images/powerbi_dashboard_screenshot.png)
 
 
 
